@@ -1,6 +1,6 @@
 **Summary**
 
-Accurate credit risk assessment is essential for minimizing loan defaults and financial loss for both borrower and lender. This project develops an end-to-end machine learning solution to predict the likelihood of loan default using historical borrower and loan data. Multiple classification models were evaluated using a GridSearch. Ultimately, a gradient boosting model was selected based on a strong performance with metrics ROC-AUC and accuracy. The final model was deployed as a prediction service using a Flask API, containerized with Docker and hosted on AWS. This project demonstrates a practical, production-oriented approach to building and deploying a credit risk model that can be monitored, retrained and scaled as new data becomes available.
+Credit risk assessment is essential for minimizing loan defaults and financial loss for both borrower and lender. This project develops an end-to-end machine learning solution to predict the likelihood of loan default using historical borrower and loan data. Multiple classification models were evaluated using a GridSearch. Ultimately, a gradient boosting model was selected based on a strong performance with metrics ROC-AUC and accuracy. The final model was deployed as a prediction service using a Flask API, containerized with Docker and hosted on AWS. This project demonstrates a practical, production-oriented approach to building and deploying a credit risk model that can be monitored, retrained and scaled as new data becomes available.
 
 
 **Application Instructions**
